@@ -1,0 +1,21 @@
+body {
+	background-color: rgb(104,187,285);
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+}
+#header{
+	height: 20%;
+	width: 100%;
+}
+#left-box{
+	float: left;
+	background-color: rgb(9,30,45);
+	color: #FFFFFF;
+	height: 60%;
+	width: 100%;
+}
+#right-box{
+	float:right;
+}
