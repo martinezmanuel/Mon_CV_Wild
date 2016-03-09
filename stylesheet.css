@@ -21,7 +21,7 @@ ul{text-decoration: none;}
 	float: left;
 	background-color: rgb(9,30,45);
 	color: #FFFFFF;
-	height: 100%;
+	height: 64Opx;
 	width: 40%;
 }
 #right-box{
@@ -52,4 +52,6 @@ ul{text-decoration: none;}
 }
 #footer{
 	display: block;
+	height: 50px;
+	background-color: rgb(9,30,45);
 }
