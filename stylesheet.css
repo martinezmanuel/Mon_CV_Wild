@@ -1,5 +1,7 @@
 body {
 	background-color: rgb(104,187,285);
+
+	width: 100%;
 }
 h1{
 	text-align: center;
@@ -9,13 +11,37 @@ h1{
 	height: 20%;
 	width: 100%;
 }
+#container{
+	height: 100%;
+	width: 100%;
+}
 #left-box{
 	float: left;
 	background-color: rgb(9,30,45);
 	color: #FFFFFF;
-	height: 60%;
-	width: 100%;
+	height: 100%;
+	width: 40%;
 }
 #right-box{
-	float:right;
+	display: inline-block;
+	width: 59%;
+	background-color: #FFFFFF;
+	margin-left: 1px;
+	
+}
+#experiences-box{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 3px;
+	background-color: red;
+
+}
+#studies-box{
+	width: 100%;
+	height: 300px;
+	margin-top: 3px;
+	background-color: green;
+}
+#footer{
+	display: block;
 }
