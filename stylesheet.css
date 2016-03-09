@@ -7,6 +7,8 @@ h1{
 	text-align: center;
 	font-size: 45px;
 }
+li{list-style-type: none;}
+ul{text-decoration: none;}
 #header{
 	height: 20%;
 	width: 100%;
@@ -25,7 +27,7 @@ h1{
 #right-box{
 	display: inline-block;
 	width: 59%;
-	background-color: #FFFFFF;
+	background-color: rgb(9,30,45);
 	margin-left: 1px;
 	
 }
@@ -33,14 +35,20 @@ h1{
 	width: 100%;
 	height: 300px;
 	margin-bottom: 3px;
-	background-color: red;
+	background-color: white;
 
 }
 #studies-box{
 	width: 100%;
 	height: 300px;
 	margin-top: 3px;
-	background-color: green;
+	background-color: white;
+}
+.experience{
+	background-color: rgb(104,187,285);
+}
+.study{
+	background-color: rgb(104,187,285);
 }
 #footer{
 	display: block;
